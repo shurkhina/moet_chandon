@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Khand:wght@500&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header_top">
+      <div class="container flexbox">
+        <a href="#" class="logo"><img src="img/logo-white.svg" alt="logo" width="156" height="54"></a>
+        <nav class="navitagion navigation_header flexbox">
+          <ul class="menu flexbox">
+            <li class="menu__item"><a href="#" class="menu__link">about</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">articles</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="busket flexbox">
+          <span>Shopping cart</span>
+          <div class="icon">
+            <svg class="svg__icon" width="16" height="16">
+              <use xlink:href="img/sprite.svg#busket"></use>
+            </svg>
+          </div>
+        </a>
+        <button type="button" class="hamburger hamburger--spin" aria-expanded="false" aria-controls="menu__list">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <div class="bg__words">
+      <span class="litera m">m</span>
+      <span class="litera o">o</span>
+      <span class="litera e">e</span>
+      <span class="litera t">t</span>
+    </div>
+    <div class="header__main">
+      <div class="container">
+        <div class="header_middle flexbox">
+          <div class="text">
+            <h1>MOëT CHANDON</h1>
+            <div class="descr">Around 5M bottles are produced in each vintage. The wine is 60% Chardonnay and 40%</div>
+            <a href="#" class="btn btn__more">explore more</a>
+          </div>
+          <div class="view">
+            <div class="view__slider swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="view__item">
+                    <div class="heading">Frederik Grinsbergens 1</div>
+                    <ul class="rating flexbox">
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                    </ul>
+                    <div class="text">
+                      <p>The lead singer Freddie Mercury sings "She keeps her Moet et Chandon in her pretty cabinet".</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="view__item">
+                    <div class="heading">Frederik Grinsbergens 2</div>
+                    <ul class="rating flexbox">
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                    </ul>
+                    <div class="text">
+                      <p>The lead singer Freddie Mercury sings "She keeps her Moet et Chandon in her pretty cabinet".</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="view__item">
+                    <div class="heading">Frederik Grinsbergens 3</div>
+                    <ul class="rating flexbox">
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                      <li class="star active"></li>
+                    </ul>
+                    <div class="text">
+                      <p>The lead singer Freddie Mercury sings "She keeps her Moet et Chandon in her pretty cabinet".</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="header_bottom flexbox">
+          <button type="button" class="btn__chat" aria-expanded="false" aria-controls="chat">
+            <svg class="svg__icon" width="22" height="23">
+              <use xlink:href="img/sprite.svg#chat"></use>
+            </svg>
+            Chat with manager
+          </button>
+          <ul class="soc flexbox">
+            <li>
+              <a href="#" class="soc__item">
+                <svg class="svg__icon" width="14" height="11">
+                  <use xlink:href="img/sprite.svg#tw"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="soc__item">
+                <svg class="svg__icon" width="9" height="16">
+                  <use xlink:href="img/sprite.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="soc__item">
+                <svg class="svg__icon" width="16" height="11">
+                  <use xlink:href="img/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="overly"></div>
+  <nav class="navigation navigation_mob" id="menu__list">
+    <ul class="menu">
+      <li class="menu__item"><a href="#" class="menu__link">about</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">articles</a></li>
+    </ul>
+  </nav>
+
+  <section class="section__history">
+    <div class="container">
+      <div class="history">
+        <div class="history__slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="history__item flexbox">
+                <div class="text">
+                  <h2>CHAMPAGNE HISTORY1</h2>
+                  <p>Moët et Chandon began as Moët et Cie (meaning "Moët & Co."), established by Épernay wine trader Claude Moët in 1743, and began shipping his wine from Champagne to Paris. </p>
+                  <p>The reign of King Louis XV coincided with increased demand for sparkling wine. Soon after its foundation, and after son Claude-Louis joined Moët et Cie.</p>
+                </div>
+                <picture class="history_img">
+                  <img src="img/image.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="history__item flexbox">
+                <div class="text">
+                  <h2>CHAMPAGNE HISTORY2</h2>
+                  <p>Moët et Chandon began as Moët et Cie (meaning "Moët & Co."), established by Épernay wine trader Claude Moët in 1743, and began shipping his wine from Champagne to Paris. </p>
+                  <p>The reign of King Louis XV coincided with increased demand for sparkling wine. Soon after its foundation, and after son Claude-Louis joined Moët et Cie.</p>
+                </div>
+                <picture class="history_img">
+                  <img src="img/image.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="history__item flexbox">
+                <div class="text">
+                  <h2>CHAMPAGNE HISTORY3</h2>
+                  <p>Moët et Chandon began as Moët et Cie (meaning "Moët & Co."), established by Épernay wine trader Claude Moët in 1743, and began shipping his wine from Champagne to Paris. </p>
+                  <p>The reign of King Louis XV coincided with increased demand for sparkling wine. Soon after its foundation, and after son Claude-Louis joined Moët et Cie.</p>
+                </div>
+                <picture class="history_img">
+                  <img src="img/image.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="history__item flexbox">
+                <div class="text">
+                  <h2>CHAMPAGNE HISTORY4</h2>
+                  <p>Moët et Chandon began as Moët et Cie (meaning "Moët & Co."), established by Épernay wine trader Claude Moët in 1743, and began shipping his wine from Champagne to Paris. </p>
+                  <p>The reign of King Louis XV coincided with increased demand for sparkling wine. Soon after its foundation, and after son Claude-Louis joined Moët et Cie.</p>
+                </div>
+                <picture class="history_img">
+                  <img src="img/image.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="history__item flexbox">
+                <div class="text">
+                  <h2>CHAMPAGNE HISTORY5</h2>
+                  <p>Moët et Chandon began as Moët et Cie (meaning "Moët & Co."), established by Épernay wine trader Claude Moët in 1743, and began shipping his wine from Champagne to Paris. </p>
+                  <p>The reign of King Louis XV coincided with increased demand for sparkling wine. Soon after its foundation, and after son Claude-Louis joined Moët et Cie.</p>
+                </div>
+                <picture class="history_img">
+                  <img src="img/image.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-counter"></div>
+        </div>
+        <span class="pagingInfo"></span>
+      </div>
+      <div class="qoute flexbox">
+        <blockquote>
+          <p>Life is what happens when you're busy making other plans.</p>
+          <div class="bottom flexbox">
+            <cite>Duis aute <b>irure dolor</b> in voluptate velit esse cillum</cite>
+            <picture>
+              <img src="img/signature.png" alt="img">
+            </picture>
+          </div>
+        </blockquote>
+        <picture class="qoute__img">
+          <img src="img/owner.jpg" alt="img">
+        </picture>
+      </div>
+    </div>
+    <div class="brand">
+      <h2><span>MOёT</span>brand logo history</h2>
+      <div class="descr">The lead singer Freddie Mercury sings "She keeps her Moet et Chandon in her pretty cabinet".</div>
+      <div class="brand__block flexbox">
+        <a href="#" class="brand__item">
+          <div class="title">LADIES EDITION</div>
+          <div class="heading">Rose Imperial</div>
+          <picture>
+            <img src="img/bottle.png" alt="img">
+          </picture>
+          <div class="price">€ 350 / Bottle</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipis</p>
+        </a>
+        <a href="#" class="brand__item brand_first">
+          <div class="title">SPECIAL EDITION</div>
+          <div class="heading">Brut Imperial</div>
+          <picture>
+            <img src="img/bottle1.png" alt="img">
+          </picture>
+          <div class="price">€ 150 / Bottle</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipis</p>
+        </a>
+        <a href="#" class="brand__item">
+          <div class="title">LUXURY LABEL</div>
+          <div class="heading">Nectar Imperial</div>
+          <picture>
+            <img src="img/bottle2.png" alt="img">
+          </picture>
+          <div class="price">€ 350 / Bottle</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipis</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__busy">
+    <div class="container">
+      <h2>Life is what happens when you're busy</h2>
+      <div class="busy flexbox">
+        <div class="lifestyle">Moet lifestyle</div>
+        <div class="busy__slider swiper-container" id="scroll-tags">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="busy__item">
+                <picture>
+                  <img src="img/busy.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="busy__item">
+                <picture>
+                  <img src="img/busy2.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="busy__item">
+                <picture>
+                  <img src="img/busy3.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="busy__item">
+                <picture>
+                  <img src="img/busy.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="busy__item">
+                <picture>
+                  <img src="img/busy2.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="busy__item">
+                <picture>
+                  <img src="img/busy3.jpg" alt="img">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__contact">
+    <div class="container">
+      <div class="contact">
+        <h2 class="visually_hidden">Contact</h2>
+        <picture>
+          <img src="img/logo-black.svg" alt="img" width="267">
+        </picture>
+        <p>We recommended you to subscribe. Enter your email below to get our daily update about us.</p>
+        <form action="#" method="post" class="form__subscribe">
+          <div class="formgroup">
+            <input type="email" name="email" placeholder="Enter your email adress">
+            <button type="submit" class="btn btn__sbscr">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container flexbox">
+      <div class="copy">
+        <p>We live on the innovations and creativity of our employees. If you want to experience the fascination for Porsche, come and join us!</p>
+        <ul class="soc flexbox">
+          <li>
+            <a href="#" class="soc__item">
+              <svg class="svg__icon" width="16" height="16">
+                <use xlink:href="img/sprite.svg#inst_big"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="soc__item">
+              <svg class="svg__icon" width="16" height="16">
+                <use xlink:href="img/sprite.svg#fb_big"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="soc__item">
+              <svg class="svg__icon" width="16" height="16">
+                <use xlink:href="img/sprite.svg#tw_big"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="lists flexbox">
+        <div class="list">
+          <div class="heading">About</div>
+          <ul class="list__menu">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <div class="heading">Company</div>
+          <ul class="list__menu">
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <div class="heading">Support</div>
+          <ul class="list__menu">
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Support center</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <div class="heading">Get in touch</div>
+          <ul class="list__menu">
+            <li><a href="#">Qwestion or feedback&</a></li>
+            <li><a href="#">We`d love to hear from you</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- javascript -->
+  <script src="js/libs.min.js"></script>
+  <script src="js/js.js"></script>
+
+
+
+</body>
+
+</html>
